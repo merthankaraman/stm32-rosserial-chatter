@@ -49,7 +49,8 @@
 #include "stm32f7xx_hal_uart.h"
 #endif /* STM32F7xx */
 
-extern UART_HandleTypeDef huart3;
+#define ROS_UART huart3
+extern UART_HandleTypeDef ROS_UART;
 
 class STM32Hardware {
   protected:
